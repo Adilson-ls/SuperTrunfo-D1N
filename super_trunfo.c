@@ -5,19 +5,11 @@
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
 // Siga os comentários para implementar cada parte do desafio.
 // Teste Adilson
+  
+int main() {
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
-
-int main() {
 
     // Declaração das variáveis para a Carta 1
     char estado1;          // Armazena a letra do estado (A-H)
@@ -37,6 +29,10 @@ int main() {
     float pib2;
     int pontos_turisticos2;
 
+    // Cadastro das Cartas:
+    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
+    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
+    
     // Leitura dos dados da Carta 1
     printf("Cadastro da Carta 1:\n");           // Imprime uma mensagem informativa
     printf("Estado (A-H): ");                   // Pede ao usuário para inserir o estado
@@ -48,7 +44,7 @@ int main() {
                                                 // e armazena em 'codigo1'. É importante que o usuário
                                                 // não digite mais que 3 caracteres além do terminador nulo.
     printf("Nome da Cidade: ");                 // Pede o nome da cidade
-    scanf(" %s[^\n]", nome_cidade1);             // Lê uma linha inteira de texto (incluindo espaços) até encontrar
+    scanf(" %s[^\n]", nome_cidade1);            // Lê uma linha inteira de texto (incluindo espaços) até encontrar
                                                 // uma quebra de linha ('\n') e armazena em 'nome_cidade1'.
                                                 // O " %[^\n]" é usado para ler strings com espaços.
     printf("População: ");                      // Pede a população
@@ -80,16 +76,20 @@ int main() {
     scanf("%d", &pontos_turisticos2);
     printf("\n");
 
+    // Exibição dos Dados das Cartas:
+    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
+    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+
     // Exibição dos dados da Carta 1
-    printf("Carta 1:\n");                     // Imprime um cabeçalho para a Carta 1
-    printf("Estado: %c\n", estado1);         // Imprime o estado da Carta 1
-    printf("Código: %s\n", codigo1);         // Imprime o código da Carta 1
-    printf("Nome da Cidade: %s\n", nome_cidade1); // Imprime o nome da cidade da Carta 1
-    printf("População: %d\n", populacao1);     // Imprime a população da Carta 1
-    printf("Área: %.2f km²\n", area1);       // Imprime a área da Carta 1, formatada para 2 casas decimais
-    printf("PIB: %.2f bilhões de reais\n", pib1);// Imprime o PIB da Carta 1, formatado para 2 casas decimais
-    printf("Número de Pontos Turísticos: %d\n", pontos_turisticos1); // Imprime o número de pontos turísticos da Carta 1
-    printf("\n");                             // Imprime uma linha em branco para separar as informações das cartas.
+    printf("Carta 1:\n");                                               // Imprime um cabeçalho para a Carta 1
+    printf("Estado: %c\n", estado1);                                    // Imprime o estado da Carta 1
+    printf("Código: %s\n", codigo1);                                    // Imprime o código da Carta 1
+    printf("Nome da Cidade: %s\n", nome_cidade1);                       // Imprime o nome da cidade da Carta 1
+    printf("População: %d\n", populacao1);                              // Imprime a população da Carta 1
+    printf("Área: %.2f km²\n", area1);                                  // Imprime a área da Carta 1, formatada para 2 casas decimais
+    printf("PIB: %.2f bilhões de reais\n", pib1);                       // Imprime o PIB da Carta 1, formatado para 2 casas decimais
+    printf("Número de Pontos Turísticos: %d\n", pontos_turisticos1);    // Imprime o número de pontos turísticos da Carta 1
+    printf("\n");                                                       // Imprime uma linha em branco para separar as informações das cartas.
 
     // Exibição dos dados da Carta 2 (o processo é idêntico ao da Carta 1,
     // mas os dados exibidos são os armazenados nas variáveis da Carta 2)
