@@ -1,6 +1,5 @@
-# Desafio Super Trunfo - Países - Cadastro das Cartas - Atualizado: 21/02
-
-Bem-vindo ao desafio "Super Trunfo - Países"! No jogo Super Trunfo, os jogadores comparam os atributos das cartas para determinar a mais forte. O tema deste Super Trunfo é "Países", onde você comparará os atributos das cidades.
+# Desafio Super Trunfo - Países - Cadastro das Cartas
+butos das cartas para determinar a mais forte. O tema deste Super Trunfo é "Países", onde você comparará os atributos das cidades.
 
 A empresa MateCheck contratou você para desenvolver a parte inicial do jogo, que consiste no cadastro das cartas.
 
@@ -8,7 +7,7 @@ O desafio está dividido em três níveis: Novato, Aventureiro e Mestre, com cad
 
 🚨 **Atenção:** O nível Novato do desafio é focado apenas no cadastro das cartas, utilizando as funções `scanf` para ler os dados e `printf` para exibi-los.
 
-## 🎮 Nível Novato: Cadastro Básico
+## 🎮 Nível Novato: Cadastro Básico (NNCB)
 
 No nível Novato, você iniciará criando o sistema básico do jogo Super Trunfo com o tema "Países". As cartas serão divididas por estados, cada um com quatro cidades.  Imagine um país dividido em oito estados (A a H), e cada estado com quatro cidades (1 a 4).  A combinação forma o código da carta (ex: A01, B02).
 
