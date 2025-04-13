@@ -78,8 +78,8 @@ programa {
     escreva("Código: ", codigo1, "\n")
     escreva("Nome da Cidade: ", nome_cidade1, "\n")
     escreva("População: ", populacao1, "\n")
-    escreva("Área: ", area1:2, " km²\n")
-    escreva("PIB: ", pib1:2, " bilhões de reais\n")
+    escreva("Área: ", area1, " km²\n")
+    escreva("PIB: ", pib1, " bilhões de reais\n")
     escreva("Número de Pontos Turísticos: ", pontos_turisticos1, "\n")
     escreva("\n")
 
@@ -90,8 +90,8 @@ programa {
     escreva("Código: ", codigo2, "\n")
     escreva("Nome da Cidade: ", nome_cidade2, "\n")
     escreva("População: ", populacao2, "\n")
-    escreva("Área: ", area2:2, " km²\n")
-    escreva("PIB: ", pib2:2, " bilhões de reais\n")
+    escreva("Área: ", area2, " km²\n")
+    escreva("PIB: ", pib2, " bilhões de reais\n")
     escreva("Número de Pontos Turísticos: ", pontos_turisticos2, "\n")
     escreva("\n")
   }
